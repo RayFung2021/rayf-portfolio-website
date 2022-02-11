@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Defining the Language use for the website, in this case is English.-->
+    <head>
+        <!-- Standard charset setup...-->
+        <meta charset="UTF-8">
+
+        <!-- This make sure the website functions correctly on small devices as well, such as on an iPhone.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <!-- The title of the website.-->
+        <title>RayFung Portfolio Website</title>
+
+        <!-- Links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+
+        <!-- Font style & Effect from Google Fonts api.-->
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Rubik:ital,wght@1,700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Favicon of the website.-->
+        <link rel="icon" href="img/ClueLessRay.png">
+
+    </head>
+    <body>
+        <header>
+            <!-- Setting up the portfolio logo, my logo imported from the "images" folder.-->
+            <div class="logo">
+                <img src="img/ClueLessRay.png" alt=""> <!-- Blank in alt is completely fine!-->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation"> <!-- add label to show text on what this button is being used for when the button isn't available.-->
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list"> <!-- The list of all navigation tabs on the website.(Match the "href" with the "id" of the relevant sections)-->
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Service</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!-- Introduction-->
+        <section class="intro">
+            <h1 class="section__title section__title--intro"> <!-- "--" means it is a modifier class, in this case it will modify the "section__title" into a different one.-->
+                The Title <strong>of my project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
+            <img src="img/" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+
+            </p>
+
+            <img src="img/" alt="">
+
+            <p>
+                
+            </p>
+            <p>
+                
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- My professional email address.-->
+            <a href="mailto:fungray8dev@gmail.com" class="footer__link">fungray8dev@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" 
+                    href="link here">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" 
+                    href="link here">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="link here">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="link here">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script> <!-- The "index.js" script in the javascript (js) folder. -->
+
+    </body>
+</html>
