@@ -19,6 +19,7 @@
     --clr-dark: #303030;
     --clr-accent: #87712A;
     --clr-doge: #d9bd62;
+    --clr-doge-light: #FFE797;
     --clr-eden: #264E36;
     --clr-emerald: #009B77;
 
@@ -84,7 +85,7 @@ strong { font-weight: var(--fw-bold);}
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
-    color: var(--clr-dark);
+    color: var(--clr-doge-light);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -241,7 +242,7 @@ header{
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: var(--clr-emerald);
+    background: var(--clr-light);
     color: var(--clr-accent);
     width: 2em;
     height: 3px;
@@ -414,7 +415,10 @@ header{
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 700px));
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
     max-width: 0 auto;
 }
 
@@ -437,7 +441,7 @@ header{
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img{
     transform: scale(1.2);
-    opacity: .75;
+    opacity: .85;
 }
 
 
