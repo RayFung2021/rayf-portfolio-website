@@ -415,7 +415,7 @@ header{
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 800px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 900px));
     grid-gap: 10px;
     justify-items: center;
     align-items: center;
@@ -446,10 +446,9 @@ header{
 
 .portfolio__text{
     position:relative;
-    background-color: var(--clr-dark);
-    color: var(--clr-doge-light);
+    color: var(--clr-light);
     text-align: center;
-    padding: 5em 3em;
+    padding: 2em 2em;
 }
 
 
