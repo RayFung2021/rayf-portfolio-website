@@ -17,7 +17,7 @@
         <!-- Font style & Effect from Google Fonts api.-->
         <link href="https://fonts.googleapis.com/css?
                     family=Itim&family=Rubik:ital,wght@1,700&display=swap
-                    &effect=shadow-multiple|anaglyph|3d|neon|fire-animation" rel="stylesheet"> 
+                    &effect=shadow-multiple|anaglyph|3d|neon|fire-animation|outline|3d-float|emboss" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -37,16 +37,16 @@
             <nav class="nav">
                 <ul class="nav__list"> <!-- The list of all navigation tabs on the website.(Match the "href" with the "id" of the relevant sections)-->
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Service</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Things that I do</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- Introduction-->
         <section class="intro" id="home">
-            <h1 class="section__title section__title--intro"> <!-- "--" means it is a modifier class, in this case it will modify the "section__title" into a different one.-->
+            <h1 class="section__title section__title--intro font-effect-outline"> <!-- "--" means it is a modifier class, in this case it will modify the "section__title" into a different one.-->
                 Hi👋, I am <strong class="font-effect-3d">Ray Fung</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro font-effect-fire-animation">🎮 Game Dev 🎮</p>
@@ -58,34 +58,76 @@
             <h2 class="section__title section__title--services">👨🏻‍💻 <strong>Things that I do</strong> 👨🏻‍💻 : </h2>
             <div class="services">
                 <div class="service">
-                    <h3>
-                        Test Heading 1
+                    <h3 class="font-effect-3d">
+                        Game Development 🎮
                     </h3>
                     <p>
-                        Some sort of god of war paragraph under Test Heading 1...
+                        <p class="font-effect-emboss">Unity3D</p>
+                        <p>I am into game development, especially Game Design, as I love bringing my ideas to life.</p>
+                        <p>I also remarkably enjoy the process of analyzing the game design of existing games (both exemplary and flawed) 
+                            and think about how they could benefit the game(s) that I am currently designing.</p>
+                        <p>I am used to overanalyzing games when I play them or watching someone else play them.</p>
+
                     </p>
                 </div> <!-- / service -->
 
                 <div class="service">
-                    <h3>
-                        Test Heading 2
+                    <h3 class="font-effect-3d">
+                        Programming 👨🏻‍💻
                     </h3>
                     <p>
-                        Some sort of god of war paragraph under Test Heading 1...
+                        <p class="font-effect-emboss">C#</p>
+                        <p>Apart from just designing games, I can also do some programming myself.</p>
+                        <p>Although I am not the best when it comes to programming, I quite enjoy being "in
+                            the zone" when doing it, if you know what I mean...
+                        </p>
+                        <p>My primary programming language is C# (as I use it to make my games in Unity).</p>
+                        <p>I have also tried other programming languages like Python, Solidity, Javascript, CSS, and HTML (to make this portfolio). However, I am merely a beginner. </p>
                     </p>
                 </div> <!-- / service -->
 
                 <div class="service">
-                    <h3>
-                        Test Heading 3
+                    <h3 class="font-effect-3d">
+                        Ethical Hacking 🐧
                     </h3>
                     <p>
-                        Some sort of god of war paragraph under Test Heading 1...
+                        <p class="font-effect-emboss">Kali Linux</p>
+                        <p>I found Ethical Hacking to be something that I really enjoy.</p>
+                        <p>I am still a beginner at this subject, but my goal is to be able to play online CTF during my free time.</p>
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3 class="font-effect-3d">
+                        2D Art 🎨
+                    </h3>
+                    <p>
+                        <p class="font-effect-emboss">Adobe Photoshop</p>
+                        <p>I can also draw some 2D cartoon/pixel art using photoshop.</p>
+                    </p>
+                    <p>-----</p>
+                    <h3 class="font-effect-3d">
+                        Video Editing 🎞️
+                    </h3>
+                    <p>
+                        <p class="font-effect-emboss">Filmora</p>
+                        <p>I will do video editing when necessary.</p>
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3 class="font-effect-emboss">
+                        Blockchain Development ⛓
+                    </h3>
+                    <p>
+                        <p class="font-effect-emboss">...</p>
+                        <p>I hecking love researching all kinds of crypto stuff!!! BatChest</p>
+                        <p>Stepping into the technical side of it soon.</p>
                     </p>
                 </div> <!-- / service -->
             </div> <!-- / services -->
 
-            <a href="#work" class="btn">My Work</a>
+            <a href="#work" class="btn font-effect-outline">My Work</a>
         </section>
 
         <!-- About Me-->
@@ -96,21 +138,31 @@
 
             <div class="about-me__body">
                 <p> 
-                    I am a passionate game development student that hopes to turn my ideas into games that bring joy to people. I am currently studying at SAE University in Brisbane, Australia, where I learn about game development, such as level design and C# programming language.
+                    I am a passionate game development student that hopes to turn my ideas into games that bring joy to people. I am currently studying at SAE University 🎓 in Brisbane, Australia, where I learn about game development, such as game design and C# programming language.
                 </p>
                 <p> 
-                    Testing... 
+                    My ultimate goal🎯, though, is far more than just entertainment.
+                </p>
+                <p>
+                    I am also an insane nerd that actually enjoys working super hard; ~20+ hours a day is my peak...
+                </p>
+                <p>
+                    Believe me or not, but I actually rarely play any games these days. My favorite game : It doesn't exist anymore! 😢
+                </p>
+                <p>
+                    I watch Twitch to keep myself up to date in gaming and gain insight into existing games. (both AAA & Lidl games)
                 </p>
             </div>
 
             <img src="img/WhiteHatRay(Flipped).png" alt="white hat" class="about-me__img">
+            <img src="img/Retraced Cool Doge (Transparent).png" alt="A cool doge that I drew!" class="about-me__img">
         </section>
 
         <!-- My Work-->
         <section class="my-work" id="work">
             <h2 class="section__title section__title--work font-effect-3d">✨Games that I have made so far✨: </h2>
             <p class="section__subtitle section__subtitle--work">Feel free to click on one of them to know more about my involvement! </p>
-            <p class="font-effect-anaglyph">(Order : Big Projects > Smol Lidl Projects)</p>
+            <p class="font-effect-outline">(Order : Big Projects > Smol Lidl Projects)</p>
 
             <div class="portfolio">
                 <!-- Portfolio item 01 -->
